@@ -198,7 +198,7 @@ export function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="md:hidden fixed right-0 top-16 h-[calc(100vh-4rem)] w-80 z-60 bg-brand-dark flex flex-col overflow-y-auto"
+              className="md:hidden fixed right-0 top-16 h-[calc(100vh-4rem)] w-full z-60 bg-brand-dark flex flex-col overflow-y-auto"
             >
               {/* Mobile Navigation */}
               <div className="flex flex-col items-center w-full py-6 md:py-6">
